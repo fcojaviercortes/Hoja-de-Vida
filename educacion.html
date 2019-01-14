@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <meta name="author" content="Francisco Javier Cortés Cabezas">
+    <meta name="description" content="Examen Final Módulo de Fundamentos HTML">
+    <title>Hoja de Vida</title>
+  </head>
+  <body bgcolor="#ebebfa">
+    <font face="Verdana" color="#212178">
+    <header>
+      <img src="../images/logo.svg" height="160px" alt="Logo Hoja de Vida" title="Logo Francisco Javier Cortés">
+      <h1>CURRICULUM VITAE</h1>
+      <h2><font color="#5555ff">Nombres y Apellidos</font></h2>
+      <h3>Francisco Javier Cort&eacutes Cabezas</h3>
+      <h2><font color="#5555ff">Lugar y Fecha de Nacimiento</font></h3>
+      <h3>San Andr&eacutes de Tumaco, 5 de octubre de 1972</br></br></h3>
+    </header>
+    <nav>
+      <table>
+        <tr>
+          <td>
+            <a href="../index.html"><img src="../images/btn_inicio.png" height="30px" alt="Botón Inicio" alt="Botón Inicio"></a>
+          </td>
+          <td>
+          </td>
+          <td>
+            <a href="../html/experiencia.html"><img src="../images/btn_experiencia.png" height="30px" alt="Botón Experiencia" alt="Botón Experiencia"></a>
+          </td>
+        </tr>
+      </table>
+    </nav>
+    <article class="curriculum">
+      <h2 align="left"><font color="#5555ff">Educación</font></h2>
+      <table width="100%" border="0" bordercolor="#5555ff">
+        <thead>
+          <tr bgcolor="#c5c5ff" color="#ffffff">
+            <th width="10%">Año</th> <th width="30%">Instituci&oacuten</th> <th width="30%">T&iacutetulo</th> <th width="20%">Lugar</th> <th width="10%">¿Culmin&oacute?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="center">1991</td> <td>Instituto T&eacutecnico Industrial Nacional</td> <td>Bachiller Técnico</td> <td>San Andrés de Tumaco</td> <td align="center">S&iacute</td>
+          <tr>
+            <td align="center">2005</td> <td>Normal Superior La Inmaculada</td> <td>Normalista Superior</td> <td>Barbacoas</td> <td align="center">S&iacute</td>
+          </tr>
+          <tr>
+            <td align="center">2008</td> <td>Universidad de Nariño</td> <td>Economista</td> <td>San Juan de Pasto</td> <td align="center">S&iacute</td>
+          </tr>
+          <tr>
+            <td align="center">2014</td> <td>Universidad de Nariño</td> <td>Mag&iacutester en Educaci&oacuten</td> <td>San Juan de Pasto</td> <td align="center">S&iacute</td>
+          </tr>
+          <tr>
+            <td align="center">2015</td> <td>Fundaci&oacuten Universitaria del Área Andina</td> <td>Especialista en Inform&aacutetica y Telem&aacutetica</td> <td>Tumaco</td> <td align="center">S&iacute</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Agregar Estudios</h3>
+      <table width="33%" border="1">
+        <tr>
+          <td>
+            <form class="reg_curriculum" action="index.html" method="post">
+              <table width="100%">
+                <tr>
+                  <td width="50%"><label for="ano_tit">Año del T&iacutetulo</label></td>
+                  <td width="50%"><input type="number" name="ano_tit" placeholder="Ej: 2014" min="1992" required></td>
+                </tr>
+                <tr>
+                  <td><label for="inst_edu">Instituci&oacuten Educativa</label></td>
+                  <td><input type="text" name="inst_edu" placeholder="Ej: Universidad Nacional" required></td>
+                </tr>
+                <tr>
+                  <td><label for="tit_obt">T&iacutetulo</label></td>
+                  <td><input type="text" name="tit_obt" placeholder="Ej: Ingeniero en..." required></td>
+                </tr>
+                <tr>
+                  <td><label for="lugar_tit">Lugar de obtenci&oacuten</label></td>
+                  <td><input type="text" name="lugar_tit" placeholder="Ej: Santiago de Cali" required></td>
+                </tr>
+                <tr>
+                  <td><label for="culmino">¿Culmin&oacute?</label></td>
+                  <td>
+                    <select class="registro_edu" name="culmino" required>
+                      <option>S&iacute</option>
+                      <option>No</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center"><input type="submit" name="enviar"></td>
+                </tr>
+              </table>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </article>
+    <footer>
+      <font color="#ffffff" size="2px">
+      <p>
+        <table  width="100%" bgcolor="#5555ff">
+          <tr>
+            <td>
+              <table width="100%">
+                <tr align="center">
+                  <td width="20%"><img src="../iconos/icon_whatsapps.png" height="40px" alt="Ícono Whatsapps" title="Mi número de Whatsapps"></td>
+                  <td width="20%"><img src="../iconos/icon_facebook.png" height="40px" alt="Ícono Facebook" title="Mi muro de Facebook"></td>
+                  <td width="20%"><img src="../iconos/icon_yahoo.png" height="40px" alt="Ícono Yahoo" title="Mi correo de Yahoo"></td>
+                  <td width="20%"><img src="../iconos/icon_twitter.png" height="40px" alt="Ícono Twitter" title="Mi Twitter"></td>
+                  <td width="20%"><img src="../iconos/icon_ubicacion.png" height="40px" alt="Ícono Ubicación" title="Mi dirección"></td>
+                </tr>
+                <tr align="center">
+                  <td>(57) 350 600 2896</td>
+                  <td>Francisco Javier Cortes Cabezas</td>
+                  <td>fcojaviercortes@yahoo.com</td>
+                  <td>@fcojaviercortes</td>
+                  <td>B. Nvo. Horizonte B 20 Cs 9</td>
+                </tr>
+                <tr>
+                  <p><br></p>
+                </tr>
+              </table>
+              <br><p align="center">San Andr&eacutes de Tumaco - Nariño - Colombia<br><br></p>
+            </td>
+          </tr>
+        </table>
+      </p>
+      </font>
+      <p align="center"><em>Derechos Reservados</em></p>
+    </footer>
+    </font>
+  </body>
+</html>
